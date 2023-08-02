@@ -12,7 +12,7 @@ async function updateBinary () {
   const dest = join(__dirname, 'ytdl', bin)
 
   const { data } = await axios.get(
-    `https://yt-dl.org/downloads/latest/${bin}`,
+    `https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp${process.platform === 'win32' ? '.exe' : ''}`,
     { responseType: 'arraybuffer' }
   )
 
