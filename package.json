@@ -3,12 +3,6 @@
   "version": "1.1.0",
   "description": "Gets video information using youtube-dl",
   "main": "index.js",
-  "scripts": {
-    "lint": "npx standard --fix",
-    "postinstall": "node updater",
-    "update": "node updater",
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheBITLINK/ytdl-getinfo.git"
